@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Comentários</title>
+  <link rel="stylesheet" type="text/css" href="assets/index.css">
+
+</head>
+<body>
+
+  <div class="formulario ">
+    <form id="commentForm" class="commentForm">
+
+      <h3>Produto</h3>
+      <div class="flex">
+      <div>
+        <label>Código do produto:</label>
+        <input type="text" id="inputCode" class="inputCode" required /> 
+      </div>
+      <div >
+        <label>Decrição do produto:</label>
+        <input type="text" id="inputdesc" required /> 
+      </div>
+      </div>
+      <div >
+        <label>Comentário:</label>
+        <textarea id="inputComment" required></textarea>
+      </div>
+      <div >
+        <button type="'submit" class="Add">Adicionar</button>
+      </div>
+
+    </form>
+
+
+    <div>
+      <div id="commentShow">
+        <h3> Comentários </h3>
+        <p><strong>Código do porduto:</strong> Comentário</p>
+      </div>
+    </div>
+
+  </div>
+  <div class="formulario ">
+    <form id="commentForm" class="commentForm">
+
+        <h3>Cliente</h3>
+        <div class="flex">
+        <div>
+          <label>Código do cliente:</label>
+          <input type="text" id="inputCode" class="inputCode" required /> 
+        </div>
+        <div >
+          <label>Nome do cliente:</label>
+          <input type="text" id="inputDesc" required /> 
+        </div>
+        </div>
+        <div >
+          <label>Comentário:</label>
+          <textarea id="inputComment" required></textarea>
+        </div>
+        <div >
+          <button type="'submit" class="Add">Adicionar</button>
+        </div>
+  
+      </form>
+
+
+    <div>
+      <div id="commentShow">
+        <h3> Comentários </h3>
+        <p><strong>Código do porduto:</strong> Comentário</p>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="assets/index.js">  </script>
+</body>
+
+</html>
