@@ -1,4 +1,4 @@
-<b>Projeto Front-End</b>
+<h1><b>Projeto Front-End</b></h1>
 
 Uma página web para salvar serviços e funcionários, com uma tela de login.
 
